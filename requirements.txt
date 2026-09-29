@@ -1,0 +1,13 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.34,<1
+jinja2>=3.1,<4
+python-multipart>=0.0.20,<1
+pydantic-settings>=2.7,<3
+google-generativeai>=0.8.5,<1
+fpdf2>=2.8,<3
+Pillow>=10,<13
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+
+# Optional image-generation dependencies remain outside the default app runtime.
+# The app can generate placeholder artwork without them when no AI keys are configured.
